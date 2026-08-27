@@ -32,21 +32,6 @@ Lists available commands
 `exit`
 Exits the program
 
-Example session:
-
-```
-$ python main.py
-custom-cmd>>> calc 12 * 7
-84
-custom-cmd>>> weather Dhaka
-Dhaka: ☀️ +32°C
-custom-cmd>>> joke
-Why do programmers prefer dark mode? ... Because light attracts bugs.
-custom-cmd>>> fly me to the moon
-No matching command found. Type 'help' to see available commands.
-custom-cmd>>> exit
-```
-
 ## How to run it
 
 1. Clone the repo and `cd` into it.
