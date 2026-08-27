@@ -17,13 +17,13 @@ def dispatch(command : str) -> str:
             "  calc <expression>   e.g. calc 12 * 7\n"
             "  weather <city>      e.g. weather Dhaka\n"
             "  joke                fetches a random joke\n"
-            "  exit / quit         exits Switchboard"
+            "  exit / quit         exits custom-cmd"
         )
     return "No matching command found. Type 'help' to see available commands."
 
 def main():
     while True: 
-        command = input("Switchboard>>> ")
+        command = input("custom-cmd>>> ")
         if command.lower() in ["exit", "quit"]:
             break
         else:
