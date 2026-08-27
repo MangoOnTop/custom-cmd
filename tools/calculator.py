@@ -4,6 +4,3 @@ def calculator(expression : str) -> str:
         return str(result)
     except Exception:
         return "Invalid math expression"
-
-math = input("calc: ")
-print(f"{calculator(math)}")
